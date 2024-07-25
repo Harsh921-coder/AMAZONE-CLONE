@@ -1,0 +1,69 @@
+/* Default styles */
+
+body, html {
+    background-image: url(Capture.JPG);
+    background-size: cover;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.Intro {
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 45px;
+    font-style: italic;
+}
+
+p {
+    font-size: 25px;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media queries for responsiveness */
+
+@media only screen and (max-width: 768px) {
+    /* Styles for tablets and small laptops */
+    .video-container {
+        max-width: 100%;
+        margin: 10px auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Styles for smartphones */
+    .Intro {
+        margin-top: 30px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .video-container {
+        max-width: 100%;
+        margin: 5px auto;
+    }
+}
