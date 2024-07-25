@@ -7,14 +7,14 @@ header{
 }
 #h{
     display:inline-block;
-    margin-right: 20px;
-    
+    margin-right: 40px;
     background-color: rgb(65, 63, 63);
 
 }
 a{
     color:white;
     text-decoration: none;
+    font-size: 20px;
 }
 input{
     background-color: white;
@@ -30,7 +30,7 @@ input{
     font-size: 20px;
 }
 input{
-    width:350px;
+    width:220px;
     height:30px;
 }
 button{
@@ -49,7 +49,7 @@ button{
 }
 #h2{
     display:inline-block;
-    margin-right:30px;
+    margin-right:14px;
 }
 
 .Prime{
@@ -331,3 +331,6 @@ ul{
         margin: 10px;
     }
 }
+
+
+    
