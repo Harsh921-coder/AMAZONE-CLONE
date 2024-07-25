@@ -1,1 +1,8 @@
-
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/Amazon.clone.html"
+    }
+  ]
+}
