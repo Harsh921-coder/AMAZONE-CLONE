@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/Amazon.clone.html"
+      "destination": "/index.html"
     }
   ]
 }
